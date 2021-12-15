@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(53, 57, 59);
+}
+
+.container{
+    max-width: 60%;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: #d9534f;
+    border:none;
+    background-color: rgb(0,0,0.2);
+}
+
+.delete{
+    cursor:pointer;
+}
+
+
+.filtered{
+    display: none !important;
+}
